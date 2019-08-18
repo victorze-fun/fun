@@ -21,7 +21,7 @@ int main() {
         symbol = (turn % 2 == 0)? 'X' : 'O';
 
         printf("Turno de %c: ", symbol);
-        position = get_int();
+        position = get_position();
         printf("\n");
 
         if (invalid_position(position)) continue;
@@ -87,7 +87,7 @@ bool invalid_position(int position) {
     return false;
 }
 
-int get_int() {
+int get_position() {
     int input;
     char ch;
 

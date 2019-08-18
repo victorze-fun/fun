@@ -6,7 +6,7 @@ void draw_board();
 bool three_online();
 bool occupied_box(const char *board, int position);
 bool invalid_position(int position);
-int get_int();
+int get_position();
 
 int main() {
     char board[] = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};

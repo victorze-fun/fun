@@ -19,7 +19,6 @@ int main() {
 
     cout << "*** ESTACIONAMIENTO ***" << endl;
 
-    cout << "Vehículos" << endl;
     cout << "Car: c" << endl;
     cout << "Bus: b" << endl;
     cout << "Truck: t" << endl;
@@ -37,6 +36,7 @@ int main() {
         charge = truck_per_hour * hours;
     } else {
         cout << "El tipo de vehículo ingresado no es valido." << endl;
+        return 0;
     }
 
     if (charge > 0) {

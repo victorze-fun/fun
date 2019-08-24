@@ -23,7 +23,5 @@ public:
     static int random();
 };
 
-int dice_roll();
-
 }
 

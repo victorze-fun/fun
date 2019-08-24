@@ -7,6 +7,12 @@ using namespace std;
 
 namespace craps {
 
+int dice_roll() {
+    int sum_dice = Dice::random() + Dice::random();
+    cout << "El jugador tiró: " << sum_dice << endl;
+    return sum_dice;
+}
+
 void Game::start() {
     State game_state;
     int point;
@@ -51,12 +57,6 @@ int Dice::random() {
     std::uniform_int_distribution<> distr(1, 6);
 
     return distr(eng);
-}
-
-int dice_roll() {
-    int sum_dice = Dice::random() + Dice::random();
-    cout << "El jugador tiró: " << sum_dice << endl;
-    return sum_dice;
 }
 
 }

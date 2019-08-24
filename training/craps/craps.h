@@ -17,11 +17,5 @@ public:
     static void start();
 };
 
-class Dice {
-
-public:
-    static int random();
-};
-
 }
 

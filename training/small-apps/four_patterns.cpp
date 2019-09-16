@@ -21,7 +21,7 @@ int main() {
     cin >> size;
 
     int count = 0;
-    char symbol = '*';
+    char symbol;
     cout << endl;
 
     while (count < size) {

@@ -62,8 +62,3 @@ def from_roman(s):
             index += len(numeral)
     return result
 
-
-if __name__ == '__main__':
-    print(to_roman(1424))
-    print(to_roman(4000))
-

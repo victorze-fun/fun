@@ -1,2 +1,5 @@
 *.out
 fun.py
+
+*.pyc
+__pycache__/

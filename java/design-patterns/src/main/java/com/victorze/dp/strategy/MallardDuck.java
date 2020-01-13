@@ -1,4 +1,4 @@
-package com.victorze.designpatterns.strategy;
+package com.victorze.dp.strategy;
 
 public class MallardDuck extends Duck {
 	public MallardDuck() {

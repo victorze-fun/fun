@@ -1,4 +1,4 @@
-package com.victorze.designpatterns.strategy;
+package com.victorze.dp.strategy;
 
 public class Quack implements QuackBehavior {
 	public void quack() {

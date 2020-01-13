@@ -1,4 +1,4 @@
-package com.victorze.design.ch01intro;
+package com.victorze.designpatterns.strategy;
 
 public class FlyRocketPowered implements FlyBehavior {
 	public void fly() {

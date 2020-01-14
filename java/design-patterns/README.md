@@ -41,6 +41,24 @@ a = getAnimal();
 a.makeSound();
 ```
 
+- Inversión de dependencia. Depende de abstracciones. No dependas de
+clases concretas.
+
+  Sugiere que nuestros componentes de alto nivel no deberían depender de nuestros
+  componentes de bajo nivel; más bien, ambos deberían depender de abstracciones.
+
+  Un componente de "alto nivel" es una clase con comportamiento definido en
+  términos de otros componentes de "bajo nivel".
+
+  Pautas:
+
+  - Ninguna variable debe contener una referencia a una clase concreta.
+
+  - Ninguna clase debe derivar de una clase concreta. Derivar de una abstracción,
+  interface o clase abstracta.
+
+  - Ningún método debe anular un método implementado de ninguna de sus clases base.
+
 - Favorecer la composición sobre la herencia.
 
 - Esfuércese por diseños debilmente acoplados entre objetos que interactúen.
@@ -50,7 +68,6 @@ a.makeSound();
 
 - Open-Closed. Las clases deben estar abiertas para la extensión, pero
 cerradas para la modificación.
-
 
 ## Patterns
 
@@ -66,8 +83,17 @@ varíe independientemente de los clientes que lo usan.
 objetos, de modo que cuando un objeto cambia de estado, todos sus dependientes
 son notificados y actualizados automáticamente.
 
-### 3. The Decorator Pattern
+### 3. Decorator
 
 > El patrón Decorador asigna responsabilidades adicionales a un objeto de
 forma dinámica. Los decoradores proporcionan una alternativa flexible a las
 subclases para ampliar la funcionalidad.
+
+### 4. Factory
+
+> Factory Method define una interfaz (clase abstracta) para crear un objeto,
+pero permite que las subclases decidan qué clase instanciar. Factory Method
+permite que una clase difiera la creación de instancias en subclases.
+
+> Abstract Factory proporciona una interfaz para crear familias de objetos
+relacionados o dependientes sin especificar sus clases concretas.

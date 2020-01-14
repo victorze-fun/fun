@@ -1,8 +1,4 @@
-# Strategy
-
-> El Patrón de estrategia define una familia de algoritmos, encapsula cada
-uno y los hace intercambiables. La estrategia permite que el algoritmo
-varíe independientemente de los clientes que lo usan.
+# Design Patterns
 
 > La única constante en el desarrollo de software es el **CAMBIO**.
 
@@ -17,6 +13,7 @@ Conocer conceptos como la abstracción, la herencia y el polimorfismo no lo
 convierten en un buen diseñador orientado a objetos. Un gurú del diseño
 piensa en cómo crear diseños flexibles que se puedan mantener y que puedan
 hacer frente al cambio.
+
 
 ## Principios de diseño
 
@@ -46,3 +43,31 @@ a.makeSound();
 
 - Favorecer la composición sobre la herencia.
 
+- Esfuércese por diseños debilmente acoplados entre objetos que interactúen.
+
+  Los diseños poco acoplados nos permiten construir sistemas OO flexibles que
+  pueden manejar el cambio porque minimizan la interdependencia entre los objetos.
+
+- Open-Closed. Las clases deben estar abiertas para la extensión, pero
+cerradas para la modificación.
+
+
+## Patterns
+
+### 1. Strategy
+
+> El Patrón de estrategia define una familia de algoritmos, encapsula cada
+uno y los hace intercambiables. La estrategia permite que el algoritmo
+varíe independientemente de los clientes que lo usan.
+
+### 2. Observer
+
+> El patrón de observador define una dependencia de uno a muchos entre
+objetos, de modo que cuando un objeto cambia de estado, todos sus dependientes
+son notificados y actualizados automáticamente.
+
+### 3. The Decorator Pattern
+
+> El patrón Decorador asigna responsabilidades adicionales a un objeto de
+forma dinámica. Los decoradores proporcionan una alternativa flexible a las
+subclases para ampliar la funcionalidad.

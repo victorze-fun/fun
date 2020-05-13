@@ -95,3 +95,5 @@ class FromRomanBadInput(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
+# run test
+# $ python -m unittest discover tests/  

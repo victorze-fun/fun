@@ -1,5 +1,6 @@
 *.out
 fun.py
+fun.js
 
 *.pyc
 __pycache__/

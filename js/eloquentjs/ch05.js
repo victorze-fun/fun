@@ -46,6 +46,7 @@ function textScripts(text) {
 console.log(textScripts('英国的狗说"woof", 俄罗斯的狗说"тяв"'));
 // → 61% Han, 22% Latin, 17% Cyrillic
 console.log(textScripts('Hi, how are you? حان الوقت للجدولة Небо голубое и необъятное'))
+// → 23% Latin, 31% Arabic, 46% Cyrillic
 
 function countBy(items, groupName) {
   let counts = [];

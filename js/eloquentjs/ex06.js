@@ -134,7 +134,7 @@
   // → a
   // → b
   // → c
-})();
+});
 
 
 (function borrowingAMethod() {

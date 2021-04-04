@@ -14,7 +14,7 @@
 * [x] 5 CHF * 2 = 10 CHF
 * [ ] Dollar/Franc duplication
 * [x] Common equals
-* [ ] Common times
+* [x] Common times
 * [x] Compare Francs to Dollars
 * [x] Currency?
 * [ ] Delete testFrancMultiplication?

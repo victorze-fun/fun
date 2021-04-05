@@ -1,15 +1,17 @@
 # To do
 
 ## Money
-
 * [ ] $5 + 10 CHF = $10 if rate is 2:1
 * [ ] $5 + $5 = $10
+* [ ] Return Money from $5 + $5
+* [x] Bank.reduce(Money)
+* [ ] Reduce Money with conversion
 * [ ] Money rounding?
 * [ ] hashCode()
 * [ ] Equal null
 * [ ] Equal object
-* [ ] Dollar/Franc duplication
-* [ ] Delete testFrancMultiplication?
+* [x] Dollar/Franc duplication
+* [x] Delete testFrancMultiplication?
 * [x] equals()
 * [x] 5 CHF * 2 = 10 CHF
 * [x] Common equals
